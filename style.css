@@ -28,8 +28,8 @@ li a:hover:not(.active) {
 .pop{background-attachment: fixed;
     background-repeat: no-repeat;
     background-image: url("980.png");
-    width: 680px;
-    height: 1020px;
+    width: 800px;
+    height: auto;
 
 }
 .pop h1{font-size: 300%;
