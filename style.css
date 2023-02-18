@@ -28,8 +28,8 @@ li a:hover:not(.active) {
 .pop{background-attachment: fixed;
     background-repeat: no-repeat;
     background-image: url("980.png");
-    width: 1080px;
-    height: 2240px;
+    width: 680px;
+    height: auto;
 
 }
 .pop h1{font-size: 300%;
@@ -64,7 +64,7 @@ color: #857f7f;
 }
 .end{
     text-align: right;
-    width: 1080px;
+    width: 680px;
     height: 60px;
     font-size: 150%;
     font-style: oblique;
@@ -72,7 +72,7 @@ color: #857f7f;
 }
 .line{
     text-align: right;
-    width: 1080px;
+    width: 680px;
     height: 30px;
 }
 
