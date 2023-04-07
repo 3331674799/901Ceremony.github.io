@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (isset($accounts[$username]) && $accounts[$username] == $password) {
 // 登录成功，跳转到主页
-        header("Location: index.php");
+        header("Location: index.html");
         exit;
     } else {
 // 登录失败，显示错误信息
