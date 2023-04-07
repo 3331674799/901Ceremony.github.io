@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+<style type="text/css">
+    form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+input[type="text"], input[type="password"] {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}</style>
+<form action="login.php" method="post">
+    <h2>登录</h2>
+    <label for="username">账户:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">密码:</label>
+    <input type="password" id="password" name="password" required>
+    <input type="submit" value="Login">
+</form>
